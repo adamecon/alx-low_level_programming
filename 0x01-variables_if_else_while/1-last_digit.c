@@ -24,20 +24,17 @@ int main(void)
     /* Get the last digit of n using the modulo operator */
     int lastDigit = abs(n % 10); // Use abs() to handle negative numbers
 
-    /* Print the last digit of n and additional information based on its value */
-    printf("Last digit of %d is %d and is ", n, lastDigit);
-
     if (lastDigit > 5)
     {
         printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
     }
     else if (lastDigit == 0)
     {
-        printf("Last digit of %d is %d  and is 0", n, lastDigit);
+        printf("Last digit of %d is %d  and is 0\n", n, lastDigit);
     }
     else
     {
-        printf("Last digit of %d is %d and and is less than 6 and not 0",n, lastDigit);
+        printf("Last digit of %d is %d and and is less than 6 and not 0\n",n, lastDigit);
     }
 
     return (0);
