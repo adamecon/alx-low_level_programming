@@ -22,7 +22,7 @@ int main(void)
     n = rand() - RAND_MAX / 2;
 
     /* Get the last digit of n using the modulo operator */
-    int lastDigit = abs(n % 10); // Use abs() to handle negative numbers
+    int lastDigit = abs(n % 10);
 
     if (lastDigit > 5)
     {
