@@ -29,15 +29,15 @@ int main(void)
 
     if (lastDigit > 5)
     {
-        printf("greater than 5\n");
+        printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
     }
     else if (lastDigit == 0)
     {
-        printf("0\n");
+        printf("Last digit of %d is %d  and is 0", n, lastDigit);
     }
     else
     {
-        printf("less than 6 and not 0\n");
+        printf("Last digit of %d is %d and and is less than 6 and not 0",n, lastDigit);
     }
 
     return (0);
